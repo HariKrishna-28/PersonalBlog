@@ -575,6 +575,17 @@ textarea {
   html {
     font-size: 50%;
   }
+
+  #about-profile {
+    display: flex;
+    flex-direction: column;
+  }
+  img #profile {
+    height: 40%;
+    width: 40%;
+    /* margin: 2rem; */
+  }
+
   .header .fa-bars {
     display: block;
   }
