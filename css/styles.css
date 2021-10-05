@@ -111,6 +111,22 @@ body {
   color: #66fcf1;
 }
 
+#x {
+  color: white;
+}
+
+#x:hover {
+  color: #66fcf1;
+}
+
+.text-highlight {
+  color: white;
+}
+
+.text-highlight:hover {
+  color: #66fcf1;
+}
+
 .header .fa-bars {
   color: #fff;
   cursor: pointer;
