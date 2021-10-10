@@ -576,10 +576,15 @@ textarea {
     font-size: 50%;
   }
 
+  #profile-style {
+    color: black;
+  }
+
   #about-profile {
     display: flex;
     flex-direction: column;
   }
+
   img #profile {
     height: 40%;
     width: 40%;
@@ -670,8 +675,9 @@ textarea {
 
 @media screen and (max-width: 550px) {
   .footer {
-    flex-flow: column;
+    flex-flow: row;
   }
+
   .footer h1 {
     text-align: center;
   }
@@ -690,10 +696,55 @@ p.desc {
 }
 
 .desc {
-  color: white;
+  color: rgb(199, 174, 174);
   font-size: 20px;
 }
 
 a {
+  color: #66fcf1;
+}
+
+/* Dropdown Button */
+.dropdown-button {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: "Poppins", sans-serif;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-list {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-list a {
+  color: black;
+  padding: 12px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  align-items: center;
+  display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-list a:hover {
+  background-color: #ddd;
+}
+/* Show the dropdown list on hover */
+.dropdown:hover .dropdown-list {
+  display: block;
+}
+/* Change the background color of the dropdown button when the dropdown list is shown */
+.dropdown:hover .dropdown-button {
   color: #66fcf1;
 }
