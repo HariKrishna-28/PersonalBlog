@@ -596,6 +596,7 @@ textarea {
   }
   .header .navbar {
     position: fixed;
+    margin-top: 30px;
     top: -120%;
     left: 0;
     height: auto;
