@@ -585,10 +585,8 @@ textarea {
     flex-direction: column;
   }
 
-  img #profile {
-    height: 40%;
-    width: 40%;
-    /* margin: 2rem; */
+  #about-profile img {
+    margin-left: 35%;
   }
 
   .header .fa-bars {
@@ -748,4 +746,28 @@ a {
 /* Change the background color of the dropdown button when the dropdown list is shown */
 .dropdown:hover .dropdown-button {
   color: #66fcf1;
+}
+
+.project-links {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-links img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.desc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.desc-text {
+  color: white;
+  font-size: large;
 }

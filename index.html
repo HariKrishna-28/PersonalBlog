@@ -26,7 +26,8 @@
   <!-- Header section begins -->
   <header class="header">
     <a href="#" class="icon">
-      <img src="images/Please (100 x 50 px).png" width="100px" alt="Logo">
+      <!-- <video src="images/Please (100 x 50 px).gif"></video> -->
+      <img src="images/Please (100 x 50 px).svg" width="100px" alt="Logo">
 
     </a>
     <div class="icon"></div>
@@ -62,6 +63,8 @@
               class="fab fa-linkedin"></a>
             <a id="x" href="https://www.hackerrank.com/Harikrishna28" target="_blank" rel="noreferrer"
               class="fab fa-hackerrank" style="color: black;"></a>
+            <a id="x" href="https://www.instagram.com/___h28__" style="color: black;" target="_blank" rel="noreferrer"
+              class="fab fa-instagram"></a>
             <!-- <a href="www.quora.com/How-do-I-create-a-hyperlink-in-a-drop-down-list-in-HTML">This is Link 1</a>
             <a href="#">This is Link 2</a>
             <a href="#">This is Link 3</a> -->
@@ -103,10 +106,9 @@
     <div class="row">
 
       <div class="content">
-        <div id="about-profile" style="display: flex; flex-direction: row;">
-          <!-- <div style="display: flex; justify-content: center;"> -->
-
-          <img src="images/profile.jpeg" id="profile" width="30%" height="30%" style="border-radius: 10px; ">
+        <div id="about-profile" class="project-links" row;">
+          <!-- <div style="display: flex; justify-content: center; margin-left: 0%; margin-right: 0%;"> -->
+          <img src="images/profile.jpeg" id="profile" style="border-radius: 10px; width:30%; height: 40%; ">
           <!-- </div> -->
           <div>
             <p style="margin-left: 20px; font-size:15px;">I seek challenging opportunities where I can fully use my
@@ -244,13 +246,20 @@
         Quizoid is a Online gamified quiz application to improve knowledge with a gamified and fun experience.
         The user can choose a quiz from sixteen categories and compete with other users to make it to the leaderboard
       </p>
-      <h1 class="desc">Built Using : ReactJs(Front end), FireBase (authentication and backend), OpenTriviaDb (Quiz API)
+      <h1 class="desc-text">Built Using : ReactJs(Front end), FireBase (authentication and backend), OpenTriviaDb (Quiz
+        API)
       </h1>
-      <div style="display: flex; flex-direction: column;">
-        <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/Quizoid" target="_blank"
+      <div class="project-links">
+        <a href="https://github.com/HariKrishna-28/Quizoid" target="_blank" rel="noreferrer"><img
+            src="images/GitHub-Mark.png"></a>
+        <a href="https://quizoid.netlify.app" target="_blank" rel="noreferrer"><img
+            src="images/launch_white_24dp.svg"></a>
+
+        <!-- <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/Quizoid" target="_blank"
             rel="noreferrer">here</a></span>
         <span class="desc">Find the app <a href="https://quizoid.netlify.app" target="_blank"
-            rel="noreferrer">here</a></span>
+            rel="noreferrer">here</a></span> -->
+
       </div>
     </div>
     <div style="padding: 50px; border: 2px solid white;">
@@ -259,12 +268,16 @@
         ChatRoom is a realtime chat appliaction using web sockets in which the user can chat with one or multiple users
         at a time.
       </p>
-      <h1 class="desc">Built Using : ReactJs(Front end), ExpressJs(Server side), SocketIo </h1>
-      <div style="display: flex; flex-direction: column;">
-        <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/ChatRoom" target="_blank"
+      <h1 class="desc-text">Built Using : ReactJs(Front end), ExpressJs(Server side), SocketIo </h1>
+      <div class="project-links">
+        <a href="https://github.com/HariKrishna-28/ChatRoom" target="_blank" rel="noreferrer"><img
+            src="images/GitHub-Mark.png"></a>
+        <a href="https://chat-room-28.netlify.app/" target="_blank" rel="noreferrer"><img
+            src="images/launch_white_24dp.svg"></a>
+        <!-- <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/ChatRoom" target="_blank"
             rel="noreferrer">here</a></span>
         <span class="desc">Find the app <a href="https://chat-room-28.netlify.app/" target="_blank"
-            rel="noreferrer">here</a></span>
+            rel="noreferrer">here</a></span> -->
       </div>
     </div>
     <div style="padding: 50px; border: 2px solid white;">
@@ -273,12 +286,16 @@
         Weather App is a weather application in which the user can know the current weather of any place be it a country
         or a state or a city or even a small part of the city.
       </p>
-      <h1 class="desc">Built Using : ReactJs(Front end), ExpressJs(Server side), OpenWeatherMap (Weather API) </h1>
-      <div style="display: flex; flex-direction: column;">
-        <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/WeatherApp" target="_blank"
+      <h1 class="desc-text">Built Using : ReactJs(Front end), ExpressJs(Server side), OpenWeatherMap (Weather API) </h1>
+      <div class="project-links">
+        <a href="https://github.com/HariKrishna-28/WeatherApp" target="_blank" rel="noreferrer"><img
+            src="images/GitHub-Mark.png"></a>
+        <a href="https://weather-app-28.netlify.app" target="_blank" rel="noreferrer"><img
+            src="images/launch_white_24dp.svg"></a>
+        <!-- <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/WeatherApp" target="_blank"
             rel="noreferrer">here</a></span>
         <span class="desc">Find the app <a href="https://weather-app-28.netlify.app/" target="_blank"
-            rel="noreferrer">here</a></span>
+            rel="noreferrer">here</a></span> -->
       </div>
     </div>
     <!-- <div style="padding: 50px; border: 2px solid white;">
@@ -289,7 +306,7 @@
       </p>
       <h1 class="desc">Built Using : ReactJs(Front end), FireBase (authentication and backend), OpenTriviaDb (Quiz API)
       </h1>
-      <div style="display: flex; flex-direction: column;">
+      <div class="project-links" column;">
         <span class="desc">Find the code <a href="https://github.com/HariKrishna-28/Quizoid">here</a></span>
         <span class="desc">Find the app <a href="https://github.com/HariKrishna-28/Quizoid">here</a></span>
       </div>
@@ -446,6 +463,7 @@
         class="fab fa-linkedin"></a>
       <a id="x" href="https://www.hackerrank.com/Harikrishna28" target="_blank" rel="noreferrer"
         class="fab fa-hackerrank"></a>
+      <a id="x" href="https://www.instagram.com/___h28__" target="_blank" rel="noreferrer" class="fab fa-instagram"></a>
     </div>
 
   </section>
