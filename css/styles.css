@@ -691,13 +691,31 @@ h1.desc {
 }
 p.desc {
   color: white;
-  font-size: 15px;
+  font-size: 18px;
 }
 
-.desc {
+.box-wrapper {
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  /* box-shadow: 10px 10px red; */
+}
+
+p.desc:hover {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.box-wrapper:hover {
+  border-color: #66fcf1;
+}
+
+/* .desc {
   color: rgb(199, 174, 174);
   font-size: 20px;
-}
+} */
 
 a {
   color: #66fcf1;

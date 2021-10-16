@@ -100,43 +100,62 @@
   <!-- about section starts -->
 
 
-  <section id="about" class="about">
-    <h1 class="heading">ABOUT ME</h1>
-
+  <section id="about" class="faq">
+    <h1 class="heading">About</h1>
     <div class="row">
-
-      <div class="content">
-        <div id="about-profile" class="project-links" row;">
-          <!-- <div style="display: flex; justify-content: center; margin-left: 0%; margin-right: 0%;"> -->
-          <img src="images/profile.jpeg" id="profile" style="border-radius: 10px; width:30%; height: 40%; ">
-          <!-- </div> -->
-          <div>
-            <p style="margin-left: 20px; font-size:15px;">I seek challenging opportunities where I can fully use my
-              skills for the
-              success of the organisation</p>
-            <p style="margin-left: 20px; font-size:15px;">My Tech stack includes ReactJs, ExpressJs, NodeJs</p>
-            <p style="margin-left: 20px; font-size:15px;">I am also a passionate python programmer</p>
-            <p style="margin-left: 20px; font-size:15px;">I am currently learning MongoDb</p>
-            <p style="margin-left: 20px; font-size:15px;">I aspire to become a fullstack MERN developer</p>
-            <p style="margin-left: 20px; font-size:15px;">I use netlify and heroku for hosting and deployment</p>
-
-
-            <!-- <p style="margin-left: 10px;">imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque
-              penatibus et magnis dis
-              parturient montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus
-              commodo
-              viverra</p> -->
+      <div class="image">
+        <img src="images/profile.jpeg" style=" width: auto; height: 10%px; border-radius: 10px; margin: 10px 10px;">
+      </div>
+      <div class="accordion-container">
+        <div class="accordion">
+          <div class="accordion-header">
+            <span>+</span>
+            <h3>About Myself</h3>
+          </div>
+          <div class="accordion-body">
+            <p>I am a self taught web developer and python programmer</p>
           </div>
         </div>
-        <!-- <a href=" #"><button class="btn">Read more</button></a> -->
-
+        <div class="accordion">
+          <div class="accordion-header">
+            <span>+</span>
+            <h3>Areas of interest</h3>
+          </div>
+          <div class="accordion-body">
+            <p>My areas of interest includes full stack web development and python programming</p>
+          </div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">
+            <span>+</span>
+            <h3>Tech Stack</h3>
+          </div>
+          <div class="accordion-body">
+            <p>ReactJs, ExpressJs</p>
+          </div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">
+            <span>+</span>
+            <h3>Long Term Goal </h3>
+          </div>
+          <div class="accordion-body">
+            <p>I aspire to be a MERN Stack developer </p>
+          </div>
+        </div>
+        <div class="accordion">
+          <div class="accordion-header">
+            <span class="clipme">+</span>
+            <h3>Short Term Goal <h3>
+          </div>
+          <div class="accordion-body">
+            <p>I am currently learning MongoDb</p>
+          </div>
+        </div>
       </div>
-      <!-- <div class="image"> -->
-      <!-- <img src="images/Website setup-cuate.svg" alt=""> -->
-    </div>
-
     </div>
   </section>
+
 
 
   <!-- About section ends -->
@@ -241,11 +260,13 @@
     <h1 class="heading">Projects</h1>
     <!-- <div class="row"> -->
     <div style="padding: 50px; border: 2px solid white;">
-      <h1 class="desc"> Quizoid</h1>
-      <p class="desc">
-        Quizoid is a Online gamified quiz application to improve knowledge with a gamified and fun experience.
-        The user can choose a quiz from sixteen categories and compete with other users to make it to the leaderboard
-      </p>
+      <h1 class="heading"> Quizoid</h1>
+      <div class="box-wrapper">
+        <p class="desc">
+          Quizoid is a Online gamified quiz application to improve knowledge with a gamified and fun experience.
+          The user can choose a quiz from sixteen categories and compete with other users to make it to the leaderboard
+        </p>
+      </div>
       <h1 class="desc-text">Built Using : ReactJs(Front end), FireBase (authentication and backend), OpenTriviaDb (Quiz
         API)
       </h1>
@@ -263,11 +284,16 @@
       </div>
     </div>
     <div style="padding: 50px; border: 2px solid white;">
-      <h1 class="desc"> ChatRoom</h1>
-      <p class="desc">
-        ChatRoom is a realtime chat appliaction using web sockets in which the user can chat with one or multiple users
-        at a time.
-      </p>
+      <h1 class="heading"> ChatRoom</h1>
+      <div class="box-wrapper">
+        <p class="desc">
+          ChatRoom is a realtime chat appliaction using web sockets in which the user can chat with one or multiple
+          users
+          at a time.
+        </p>
+
+      </div>
+
       <h1 class="desc-text">Built Using : ReactJs(Front end), ExpressJs(Server side), SocketIo </h1>
       <div class="project-links">
         <a href="https://github.com/HariKrishna-28/ChatRoom" target="_blank" rel="noreferrer"><img
@@ -281,11 +307,14 @@
       </div>
     </div>
     <div style="padding: 50px; border: 2px solid white;">
-      <h1 class="desc"> Weather App</h1>
-      <p class="desc">
-        Weather App is a weather application in which the user can know the current weather of any place be it a country
-        or a state or a city or even a small part of the city.
-      </p>
+      <h1 class="heading"> Weather App</h1>
+      <div class="box-wrapper">
+        <p class="desc">
+          Weather App is a weather application in which the user can know the current weather of any place be it a
+          country
+          or a state or a city or even a small part of the city.
+        </p>
+      </div>
       <h1 class="desc-text">Built Using : ReactJs(Front end), ExpressJs(Server side), OpenWeatherMap (Weather API) </h1>
       <div class="project-links">
         <a href="https://github.com/HariKrishna-28/WeatherApp" target="_blank" rel="noreferrer"><img
@@ -390,61 +419,6 @@
 
   <!-- FAQ Section starts -->
 
-  <!-- <section id="faq" class="faq">
-  <h1 class="heading">FAQ</h1>
-  <div class="row">
-  <div class="image">
-    <img src="images/Questions-cuate.svg" alt="">
-  </div>
-  <div class="accordion-container">
-    <div class="accordion">
-      <div class="accordion-header">
-        <span>+</span>
-        <h3>How much will it cost ?</h3>
-      </div>
-      <div class="accordion-body">
-        <p>suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis</p>
-      </div>
-    </div>
-    <div class="accordion">
-      <div class="accordion-header">
-        <span>+</span>
-        <h3>How to Update the website ? ?</h3>
-      </div>
-      <div class="accordion-body">
-        <p>suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis</p>
-      </div>
-    </div>
-    <div class="accordion">
-      <div class="accordion-header">
-        <span>+</span>
-        <h3>How long will it take to Design  ?</h3>
-      </div>
-      <div class="accordion-body">
-        <p>suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis</p>
-      </div>
-    </div>
-    <div class="accordion">
-      <div class="accordion-header">
-        <span>+</span>
-        <h3>Is Domain provided free ? </h3>
-      </div>
-      <div class="accordion-body">
-        <p>suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis</p>
-      </div>
-    </div>
-    <div class="accordion">
-      <div class="accordion-header">
-        <span class="clipme">+</span>
-        <h3>Is it SEO Friendly ?</h3>
-      </div>
-      <div class="accordion-body">
-        <p>suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi est sit amet facilisis magna etiam tempor orci eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis enim ut tellus elementum sagittis</p>
-      </div>
-    </div>
-  </div>
-  </div>
-</section> -->
 
   <!-- FAQ section ends -->
 
