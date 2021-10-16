@@ -664,19 +664,24 @@ textarea {
     padding: 0 1rem;
     flex-flow: column;
   }
-  .faq .row .image img {
-    width: 100vw;
-  }
+  /* .faq .row .image img {
+    margin-right: 20px;
+  } */
   .faq .row .accordion-container {
     width: 100%;
   }
 }
 
+/* mobile view */
 @media screen and (max-width: 550px) {
   .footer {
     flex-flow: row;
   }
-
+  .faq .row .image img {
+    width: auto;
+    height: 180px;
+    border-radius: 5px;
+  }
   .footer h1 {
     text-align: center;
   }
@@ -777,6 +782,10 @@ a {
 .project-links img {
   width: 40px;
   border-radius: 50%;
+}
+
+.project-links img:hover {
+  width: 50px;
 }
 
 .desc {
