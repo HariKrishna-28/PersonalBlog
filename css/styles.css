@@ -697,6 +697,7 @@ h1.desc {
 p.desc {
   color: white;
   font-size: 18px;
+  padding: 10px 10px;
 }
 
 .box-wrapper {
