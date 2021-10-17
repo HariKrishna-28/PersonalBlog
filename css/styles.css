@@ -700,23 +700,26 @@ p.desc {
   padding: 10px 10px;
 }
 
-.box-wrapper {
-  border: 2px solid white;
+.box-wrapper p {
+  /* border: 2px solid white; */
+  /* border-radius: 5px; */
+  padding: 20px 20px;
+  color: black;
+  background-color: white;
   border-radius: 5px;
-  padding: 10px 10px;
   margin-bottom: 10px;
   /* box-shadow: 10px 10px red; */
 }
 
-p.desc:hover {
-  color: black;
-  background-color: white;
+/* p.desc:hover {
+  color: white;
+  background-color: transparent;
   border-radius: 5px;
-}
+} */
 
-.box-wrapper:hover {
+/* .box-wrapper:hover {
   border-color: #66fcf1;
-}
+} */
 
 /* .desc {
   color: rgb(199, 174, 174);
@@ -785,9 +788,9 @@ a {
   border-radius: 50%;
 }
 
-.project-links img:hover {
+/* .project-links img:hover {
   width: 50px;
-}
+} */
 
 .desc {
   margin-top: 10px;
@@ -798,4 +801,40 @@ a {
 .desc-text {
   color: white;
   font-size: large;
+}
+
+.marquee {
+  width: 60%;
+  line-height: 50px;
+  background-color: transparent;
+  color: white;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee-wrap {
+  display: flex;
+  justify-content: center;
+}
+.marquee h1 {
+  color: white;
+  font-size: large;
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+}
+.marquee h1:hover {
+  color: #66fcf1;
+  display: fixed;
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  /* 0% {
+    transform: translate(0, 0);
+  } */
+  100% {
+    transform: translate(-100%, 0);
+  }
 }
