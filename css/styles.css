@@ -711,6 +711,10 @@ p.desc {
   /* box-shadow: 10px 10px red; */
 }
 
+/* .box-wrapper p:hover {
+  background-color: #66fcf1;
+} */
+
 /* p.desc:hover {
   color: white;
   background-color: transparent;
